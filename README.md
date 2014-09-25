@@ -6,9 +6,7 @@ My LaTeX résumé using LaTeX moderncv package
 MacPorts packages (OS X)
 ========================
 
-* texlive-latex
-* texlive-latex-extra
-* texlive-latex-recommended
+* texlive +full
 
 Generate your pdf using the following command:
 
