@@ -1,0 +1,157 @@
+%% start of file `Jean-Pierre.Chauvel.Résumé.tex`
+%% Copyright 2016 Jean-Pierre Chauvel <jchauvel@gmail.com>
+
+\documentclass[11pt,a4paper,english]{moderncv}
+% moderncv theme
+\moderncvtheme[grey]{casual}
+% document language
+\usepackage[english]{babel}
+% character encoding
+\usepackage[utf8]{inputenc}
+% adjust page margins
+\usepackage[scale=0.8]{geometry}
+% in preamble:
+\SetExpansion[stretch = 70, shrink = 70,] { encoding = {T2A} } { }
+\DeclareMicrotypeSet{t2atext}{encoding=T2A}
+\UseMicrotypeSet{t2atext}
+
+%personal data
+\firstname{Jean-Pierre Chauvel}
+\familyname{}
+\address{Lima, Perú}{}
+%\email{jchauvel@gmail.com}
+\email{jean.pierre@chauvel.org}
+%\social[twitter]{hellhovnd}
+\social[linkedin]{helhound}
+\social[github]{jpchauvel}
+\quote{I have almost 20 years of experience developing enterprise solutions. I’m an agile thinker with strong Python development background. Also, I am a technical Python backend evaluator. My editor of choice is Vim but that doesn’t mean I wear an old-school programmer’s hat!}
+
+\begin{document}
+\maketitle
+
+\section{Recent Experience}
+
+\cventry{2017--present}{Senior Python Software Engineer}{Encora}{Lima--Peru}{}
+{
+\url{https://encora.com}
+\newline{}
+\begin{itemize}
+    \item \textbf{Scotiabank's mobile banking}
+        \begin{itemize}
+            \item I was involved in the development of the iOS app. This time around using Objective-C.
+            \item Given that it was a legacy app, didn’t have any kind of automated test and was about to be superseded by the Joy project, I did not use any kind of automated test in this project.
+        \end{itemize}
+        \textbf{Tools:} Objective-C, Swift 4.1, Carthage, Git
+    \item \textbf{Tribal Planet's MPACT}
+        \newline{}
+        \url{https://www.tribalplanet.com}
+        \begin{itemize}
+            \item I was the main architect of the project and also the lead developer of the backend maintenance.
+            \item As a TDD practitioner, I covered every change I did with unit, integration and end-to-end tests.
+            \item I built the continuous deployment pipeline first for CircleCI then for AWS EKS.
+            \item Offloaded every single piece of code that can be taken of requests into Celery jobs.
+            \item Applied asynchronous requests with asyncio and Uvicorn.
+            \item I built an automated moderation system for user-generated content with AWS Rekognition and Azure Cognitive Services.
+        \end{itemize}
+        \textbf{Tools:} Python, asyncio, Flask, SQLAlchemy, MySQL, MongoDB, Mock, Git, Docker
+    \item \textbf{Goodyear's AndGo}
+        \newline{}
+        \url{https://www.andgonow.com}
+        \begin{itemize}
+            \item I created technical specs based on product requiremnts, this include technical diagrams (UML, ERD, etc), DB schemas \& contracts. To better communicate with technical team members and stakeholders.
+            \item As a TDD practitioner, I covered every change I did with unit, integration and end-to-end tests. The coverage remained consistently at 90\%.
+            \item I was involved in a breaking change that required splitting a monolith service into disparate microservices. The important part was that I had to carefuly plan the redesign of the new arquitecture of the DB schema.
+            \item I was in charge of developing a new important feature that required the creation of calendar events that would trigger the running of some processes in the future.
+        \end{itemize}
+        \textbf{Tools:} Python, asyncio, Flask, SQLAlchemy, PostgreSQL, Mock, Git, Docker, Microservices
+\end{itemize}
+}
+
+\subsection{}
+
+\cventry{2016}{Senior Python Software Engineer}{Freelance}{Lima--Perú}{}
+{
+\begin{itemize}
+    \item \textbf{Copa Master}
+        \begin{itemize}
+            \item I was the main architect of the project and also the lead developer of the backend maintenance.
+            \item As a TDD practitioner, I covered every change I did with unit, integration and end-to-end tests.
+            \item I built the continuous deployment pipeline first for CircleCI then for AWS EKS.
+        \end{itemize}
+        \textbf{Tools:} Python, Django, PostgreSQL, JQuery, nose, Mock, Gunicorn, Supervisord, HTML5, CSS3, Git, Docker
+\end{itemize}
+}
+
+\subsection{}
+
+\cventry{2014}{Senior Python Software Engineer}{PASTPRESENTFUTURE}{Lima--Perú}{}
+{
+\url{https://pastpresentfuture.com}
+\newline{}
+\begin{itemize}
+    \item \textbf{Doccupations}
+        \newline{}
+        WIP (\url{http://doccupations.com})
+        \begin{itemize}
+            \item I trained my clients and my co-workers on agile development.
+            \item I was the main architect of the project and also the lead developer of the backend maintenance.
+            \item Given that the I started the project I achieved around 90\% of code coverage with unit tests and end-to-end tests.
+            \item I built the continuous deployment pipeline first for CircleCI.
+            \item I created an asynchronous pipeline to send emails using Celery with RabbitMQ.
+            \item I improved the search of text using Apache Solr.
+        \end{itemize}
+        \textbf{Tools:} Python, Django, Celery, RabbitMQ, PostgreSQL, Apache Solr, JQuery, nose, Mock, Gunicorn, Supervisord, Stripe, HTML5, CSS3, Git, CircleCI, Fabric
+\end{itemize}
+}
+
+\subsection{}
+
+\section{Education}
+\cventry{1999--2002}
+    {Undergraduate degree}
+    {Instituto Superior Tecnológico de Ciencias de la Información}{Lima--Perú}
+    {}{Ex-Instituto de Ciencias de la Información de la Universidad Nacional de Ingeniería}
+
+\subsection{}
+
+\cventry{1996--1998}
+    {Diploma}
+    {Colegio de la Inmaculada}{Lima--Perú}
+    {}{}
+
+\subsection{}
+
+\section{References}
+\cvlistitem
+{
+    \textbf{Robert Werner}
+    \newline{}
+    Senior Software Engineer at Goodyear Tire \& Rubber
+    \newline{}
+    \url{https://www.linkedin.com/in/robertmdwerner}
+}
+\cvlistitem
+{
+    \textbf{Sandra Quiroz}
+    \newline{}
+    Head of Development at Encora Lima
+    \newline{}
+    \url{https://www.linkedin.com/in/sandradiazquiroz}
+}
+\cvlistitem
+{
+    \textbf{Ron Buell}
+    \newline{}
+    CTO at Tribal Planet
+    \newline{}
+    \url{https://www.linkedin.com/in/ron-buell-28a2344/}
+}
+\cvlistitem
+{
+    \textbf{Breno Colom}
+    \newline{}
+    Software Engineer at Scrapinghub
+    \newline{}
+    \url{https://linkedin.com/in/brenocolom}
+}
+\end{document}
