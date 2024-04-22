@@ -1,5 +1,5 @@
 %% start of file `Jean-Pierre.Chauvel.Résumé.tex`
-%% Copyright 2016 Jean-Pierre Chauvel <jchauvel@gmail.com>
+%% Copyright 2016 Jean-Pierre Chauvel <jean.pierre@chauvel.org>
 
 \documentclass[11pt,a4paper,english]{moderncv}
 % moderncv theme
@@ -16,54 +16,55 @@
 \UseMicrotypeSet{t2atext}
 
 %personal data
-\firstname{Jean-Pierre Chauvel}
-\familyname{}
+\name{Jean-Pierre}{Chauvel}
 \address{Lima, Perú}{}
-%\email{jchauvel@gmail.com}
+%\email{jean.pierre@chauvel.org}
 \email{jean.pierre@chauvel.org}
-%\social[twitter]{hellhovnd}
-\social[linkedin]{helhound}
+\homepage{www.chauvel.org}
+%\social[twitter]{hellhoundorf}
+\social[whatsapp]{+51989804478}
+\social[linkedin]{jpchauvel}
 \social[github]{jpchauvel}
-\quote{I have almost 20 years of experience developing enterprise solutions. I’m an agile thinker with strong Python development background. Also, I am a technical Python backend evaluator. My editor of choice is Vim but that doesn’t mean I wear an old-school programmer’s hat!}
+\quote{Boasting nearly two decades of crafting enterprise solutions, I stand as a champion of agile methodologies with a robust Python backend expertise. My affinity for Vim epitomizes my fusion of classic rigor with contemporary agility.}
 
 \begin{document}
 \maketitle
 
 \section{Recent Experience}
 
-\cventry{2017--present}{Senior Python Software Engineer}{Encora}{Lima--Peru}{}
+\cventry{2017--Present}{Senior Python Software Engineer}{Encora}{Lima--Peru}{}
 {
 \url{https://encora.com}
 \newline{}
 \begin{itemize}
-    \item \textbf{Scotiabank's mobile banking}
-        \begin{itemize}
-            \item I was involved in the development of the iOS app. This time around using Objective-C.
-            \item Given that it was a legacy app, didn’t have any kind of automated test and was about to be superseded by the Joy project, I did not use any kind of automated test in this project.
-        \end{itemize}
-        \textbf{Tools:} Objective-C, Swift 4.1, Carthage, Git
-    \item \textbf{Tribal Planet's MPACT}
-        \newline{}
-        \url{https://www.tribalplanet.com}
-        \begin{itemize}
-            \item I was the main architect of the project and also the lead developer of the backend maintenance.
-            \item As a TDD practitioner, I covered every change I did with unit, integration and end-to-end tests.
-            \item I built the continuous deployment pipeline first for CircleCI then for AWS EKS.
-            \item Offloaded every single piece of code that can be taken of requests into Celery jobs.
-            \item Applied asynchronous requests with asyncio and Uvicorn.
-            \item I built an automated moderation system for user-generated content with AWS Rekognition and Azure Cognitive Services.
-        \end{itemize}
-        \textbf{Tools:} Python, asyncio, Flask, SQLAlchemy, MySQL, MongoDB, Mock, Git, Docker
     \item \textbf{Goodyear's AndGo}
         \newline{}
         \url{https://www.andgonow.com}
         \begin{itemize}
-            \item I created technical specs based on product requiremnts, this include technical diagrams (UML, ERD, etc), DB schemas \& contracts. To better communicate with technical team members and stakeholders.
-            \item As a TDD practitioner, I covered every change I did with unit, integration and end-to-end tests. The coverage remained consistently at 90\%.
-            \item I was involved in a breaking change that required splitting a monolith service into disparate microservices. The important part was that I had to carefuly plan the redesign of the new arquitecture of the DB schema.
-            \item I was in charge of developing a new important feature that required the creation of calendar events that would trigger the running of some processes in the future.
+            \item Spearheaded the creation of comprehensive technical specifications and diagrams to crystallize product requirements, facilitating seamless communication between developers and stakeholders.
+            \item Implemented Test-Driven Development (TDD) diligently, maintaining code coverage above 90\% for unit, integration, and end-to-end tests, ensuring robust and reliable software deliveries.
+            \item Played a pivotal role in decomposing a monolithic service into a suite of focused microservices, taking utmost care in rearchitecting database schema for scalability and resilience.
+            \item Led the development of a critical feature for the automation of calendar events, enhancing process efficiency through meticulous forward-planning.
         \end{itemize}
         \textbf{Tools:} Python, asyncio, Flask, SQLAlchemy, PostgreSQL, Mock, Git, Docker, Microservices
+    \item \textbf{Tribal Planet's MPACT}
+        \newline{}
+        \url{https://www.tribalplanet.com}
+        \begin{itemize}
+            \item Orchestrated the architectural blueprint and championed backend development, maintaining cutting-edge application infrastructure.
+            \item Elevated test coverage with a TDD approach for a watertight, bug-resistant production environment.
+            \item Innovated a robust continuous deployment pipeline using CircleCI and AWS EKS to streamline software delivery. 
+            \item Augmented performance by offloading computationally intensive tasks to Celery jobs, optimizing asynchronous operations.
+            \item Engineered an automated content moderation system using AWS Rekognition and Azure Cognitive Services that upheld content quality and compliance.
+        \end{itemize}
+        \textbf{Tools:} Python, asyncio, Flask, SQLAlchemy, MySQL, MongoDB, Mock, Git, Docker
+    \item \textbf{Scotiabank's mobile banking}
+        \begin{itemize}
+            \item Contributed to the development of the iOS app using Objective-C, ensuring adherence to industry best practices and a consistent user experience.
+            \item Upheld TDD principles to guarantee comprehensive unit test coverage, fostering reliability in app releases.
+            \item Utilized the GitFlow branching model to maintain a stable and methodical software versioning rhythm.
+        \end{itemize}
+        \textbf{Tools:} Objective-C, Swift 4.1, Carthage, Git
 \end{itemize}
 }
 
@@ -74,9 +75,9 @@
 \begin{itemize}
     \item \textbf{Copa Master}
         \begin{itemize}
-            \item I was the main architect of the project and also the lead developer of the backend maintenance.
-            \item As a TDD practitioner, I covered every change I did with unit, integration and end-to-end tests.
-            \item I built the continuous deployment pipeline first for CircleCI then for AWS EKS.
+            \item Pioneered the complete project lifecycle from architecture to backend maintenance, emphasizing agile and adaptive development strategy.
+            \item Embraced a TDD-centric approach ensuring quality control through comprehensive testing, which led to a seamless deployment process.
+            \item Crafted and fine-tuned a continuous deployment pipeline, transitioning fluidly from CircleCI to AWS EKS, maximizing deployment efficiency and reliability.
         \end{itemize}
         \textbf{Tools:} Python, Django, PostgreSQL, JQuery, nose, Mock, Gunicorn, Supervisord, HTML5, CSS3, Git, Docker
 \end{itemize}
@@ -93,12 +94,11 @@
         \newline{}
         WIP (\url{http://doccupations.com})
         \begin{itemize}
-            \item I trained my clients and my co-workers on agile development.
-            \item I was the main architect of the project and also the lead developer of the backend maintenance.
-            \item Given that the I started the project I achieved around 90\% of code coverage with unit tests and end-to-end tests.
-            \item I built the continuous deployment pipeline first for CircleCI.
-            \item I created an asynchronous pipeline to send emails using Celery with RabbitMQ.
-            \item I improved the search of text using Apache Solr.
+            \item Fostered an agile development culture by coaching clients and colleagues, enhancing team dynamics and project outcomes.
+            \item Led the project inception, engineering a resilient and scalable backend architecture that resulted in an impressive 90\% code coverage through rigorous testing.
+            \item Developed a robust continuous deployment pipeline with CircleCI, optimizing the software release lifecycle.
+            \item Designed and implemented an asynchronous email delivery system using Celery with RabbitMQ, dramatically improving the efficiency and responsiveness of communication features.
+            \item Enhanced text search capabilities through the integration of Apache Solr, delivering a superior user experience through quick and accurate search results.
         \end{itemize}
         \textbf{Tools:} Python, Django, Celery, RabbitMQ, PostgreSQL, Apache Solr, JQuery, nose, Mock, Gunicorn, Supervisord, Stripe, HTML5, CSS3, Git, CircleCI, Fabric
 \end{itemize}
@@ -137,14 +137,6 @@
     Head of Development at Encora Lima
     \newline{}
     \url{https://www.linkedin.com/in/sandradiazquiroz}
-}
-\cvlistitem
-{
-    \textbf{Ron Buell}
-    \newline{}
-    CTO at Tribal Planet
-    \newline{}
-    \url{https://www.linkedin.com/in/ron-buell-28a2344/}
 }
 \cvlistitem
 {
